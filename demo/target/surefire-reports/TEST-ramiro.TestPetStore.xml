@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ramiro.TestPetStore" time="2.456" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Work\WorkSpaces\Interviews\automation-demo\demo\target\test-classes;C:\Work\WorkSpaces\Interviews\automation-demo\demo\target\classes;C:\Users\ramir\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ramir\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ramir\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ramir\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ramir\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ramir\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\ramir\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\ramir\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ramir\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ramir\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\ramir\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\ramir\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\ramir\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Work\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ramir\AppData\Local\Temp\surefire15352181820193056565\surefirebooter17794981655892803676.jar C:\Users\ramir\AppData\Local\Temp\surefire15352181820193056565 2024-10-09T01-58-09_093-jvmRun1 surefire11090895201137839690tmp surefire_08227937418850066250tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="ramiro.TestPetStore"/>
+    <property name="surefire.test.class.path" value="C:\Work\WorkSpaces\Interviews\automation-demo\demo\target\test-classes;C:\Work\WorkSpaces\Interviews\automation-demo\demo\target\classes;C:\Users\ramir\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ramir\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ramir\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ramir\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ramir\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ramir\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ramir\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\ramir\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\ramir\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ramir\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\ramir\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ramir\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\ramir\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\ramir\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\ramir\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ramir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Work\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Work\WorkSpaces\Interviews\automation-demo\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ramir\AppData\Local\Temp\surefire15352181820193056565\surefirebooter17794981655892803676.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1"/>
+    <property name="user.name" value="ramir"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-18.0.2.1+1"/>
+    <property name="maven.ext.class.path" value="C:\Users\ramir\.vscode\extensions\oracle.oracle-java-22.1.2\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\ramir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ramir\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Work\WorkSpaces\Interviews\automation-demo\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Work\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Work\Java\jdk-18.0.2.1\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet\;C:\Program Files\gs\gs9.55.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Work\Libraries\apache-maven-3.9.02\bin;C:\Program Files\dotnet\;C:\Users\ramir\Documents\Tokn1\mongo\bin;C:\Program Files\Tesseract-OCR;C:\PROGRA~1\Red Gate\Flyway Desktop\;C:\Program Files\Red Gate\Flyway Desktop\flyway.cmd;C:\Work\Libraries\Drivers\chromedriver\126;C:\Users\ramir\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\chocolatey\bin;C:\Users\ramir\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Groovy\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\ramir\AppData\Local\Programs\Python\Python312bis\Scripts\;C:\Users\ramir\AppData\Local\Programs\Python\Python312bis\;C:\Program Files\MySQL\MySQL Shell 8.4\bin\;C:\Users\ramir\AppData\Local\Microsoft\WindowsApps;C:\Users\ramir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ramir\AppData\Roaming\npm;C:\Android\Sdk\platform-tools;C:\Program Files\Redis\;C:\Users\ramir\scoop\shims;C:\Users\ramir\AppData\Local\Programs\Python\Python312bis\Scripts\;C:\Users\ramir\AppData\Local\Programs\Python\Python312bis\;C:\Program Files\MySQL\MySQL Shell 8.4\bin\;C:\Users\ramir\AppData\Local\Microsoft\WindowsApps;C:\Users\ramir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ramir\AppData\Roaming\npm;C:\Android\Sdk\platform-tools;C:\Users\ramir\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ramir\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="18.0.2.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testCreatePetSuccessfully" classname="ramiro.TestPetStore" time="1.459"/>
+  <testcase name="testGetPetById" classname="ramiro.TestPetStore" time="0.055"/>
+  <testcase name="testUpdatePet" classname="ramiro.TestPetStore" time="0.119"/>
+  <testcase name="testDeletePet" classname="ramiro.TestPetStore" time="0.025"/>
+  <testcase name="testUpdateUnexistingPet" classname="ramiro.TestPetStore" time="0.024"/>
+  <testcase name="testFindUnexistingTag" classname="ramiro.TestPetStore" time="0.024"/>
+  <testcase name="testFindByTwoTags" classname="ramiro.TestPetStore" time="0.052"/>
+  <testcase name="testFindByTagsWithNoTagsProvided" classname="ramiro.TestPetStore" time="0.01"/>
+  <testcase name="testConcurrentCreatePets" classname="ramiro.TestPetStore" time="0.681"/>
+</testsuite>
